@@ -1,0 +1,17 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+
+	align-items: center;
+
+	background: #f7d28e;
+
+	padding: 20px 50px;
+	box-shadow: 0px 4px 20px black;
+
+}
+
+.logo {
+	cursor: pointer;
+	user-select: none;
+}

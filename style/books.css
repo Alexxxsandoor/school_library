@@ -1,0 +1,140 @@
+.books {
+
+
+
+
+
+	display: flex;
+	flex-direction: column;
+
+}
+
+.book {
+	border: 1px solid black;
+
+	display: flex;
+	justify-content: space-around;
+
+
+	flex-direction: column;
+	/* justify-content: space-around; */
+	align-items: center;
+
+	margin: 15px;
+	margin-left: 20px;
+	margin-bottom: 60px;
+
+	padding: 20px;
+	width: 230px;
+
+
+	min-height: 460px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 10px black;
+
+
+
+}
+
+.divbook0,
+.divbook4,
+.divbook8,
+.divbook12,
+.divbook16,
+.divbook20,
+.divbook24,
+.divbook28,
+.divbook32,
+.divbook36,
+.divbook40,
+.divbook44,
+.divbook48,
+.divbook52,
+.divbook56,
+.divbook60,
+.divbook64,
+.divbook68,
+.divbook72,
+.divbook76,
+.divbook80,
+.divbook84,
+.divbook88,
+.divbook92,
+.divbook96,
+.divbook100,
+.divbook104,
+.divbook108,
+.divbook112,
+.divbook116,
+.divbook120,
+.divbook124 {
+	display: flex;
+	flex-direction: row;
+	margin-left: 40px;
+
+}
+
+
+
+
+
+
+
+
+.books img {
+	width: 200px;
+	height: 300px;
+}
+
+.books a {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+
+	padding: 10px 20px;
+
+	border-radius: 20px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.books a:hover {
+	background: #fdb93a;
+
+}
+
+.books a:active {
+	background: #ffeece;
+}
+
+.nobooks {
+	background: none;
+	text-align: center;
+	color: red;
+}
+
+details {
+	user-select: none;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.searchBooks {
+	margin: 10px;
+	user-select: none;
+	cursor: pointer;
+	border-bottom: 1px solid black;
+}
+
+.searchBooks:hover {
+	color: blue;
+}
+
+h3 {
+	margin: 20px 0;
+}
+
+.rating {
+	margin: 20px 0px;
+
+}
