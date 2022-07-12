@@ -1,4 +1,8 @@
 # school_library
+## [Demo](https://alexxxsandoor.github.io/school_library/) 
+login: 1 
+password: 1
+
 school library with recommendations for the student on his favorite books
 
 eng
